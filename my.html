@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Anhelitto</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      button {
+        background: #333;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+      }
+
+      header {
+        text-align: center;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+
+      table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+      }
+
+      th {
+        background-color: #333;
+        color: white;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      tr:hover {
+        background-color: #ddd;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Anhelitto Songs</h1>
+      <img
+        src="https://cdn.pixabay.com/photo/2019/08/11/18/27/icon-4399630_1280.png"
+        alt="Logo"
+        width="100"
+      />
+    </header>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Song Name</th>
+          <th>Artist</th>
+          <th>Price</th>
+          <th>Buy</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Song 1</td>
+          <td>Artist 1</td>
+          <td>$1.99</td>
+          <td><button>Buy</button></td>
+        </tr>
+        <tr>
+          <td>Song 2</td>
+          <td>Artist 2</td>
+          <td>$2.49</td>
+          <td><button>Buy</button></td>
+        </tr>
+        <tr>
+          <td>Song 2</td>
+          <td>Artist 3</td>
+          <td>$2.49</td>
+          <td><button>Buy</button></td>
+        </tr>
+
+        <tr>
+          <td>Song 4</td>
+          <td>Artist 3</td>
+          <td>$5.49</td>
+          <td><button>Buy</button></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div
+      style="
+        width: 80%;
+        margin: 0 auto;
+        background-color: #333;
+        padding: 25px;
+        margin-top: 100px;
+      "
+    >
+      <h3 style="text-align: center; color: white">
+        Listen on other platformas
+      </h3>
+      <div style="display: flex; justify-content: space-around">
+        <button style="background-color: black">
+          <a href="https://music.apple.com/ru/browse">Apple Music</a>
+        </button>
+        <button style="background-color: red">
+          <a href="https://youtbe.com">YouTube</a>
+        </button>
+        <button style="background-color: rgb(0, 123, 255)">
+          <a href="https://web.telegram.org/">Telegram</a>
+        </button>
+        <button style="background-color: rgb(16, 192, 4)">
+          <a href="https://open.spotify.com/">Stotify</a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
